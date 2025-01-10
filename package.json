@@ -4,10 +4,10 @@
   "description": "A utility wrapper script package for openapi generator",
   "main": "index.js",
   "scripts": {
-    "gen": "sh src/scripts/generate.sh"
+    "generate-api": "sh src/scripts/generate.sh"
   },
   "bin": {
-    "generate": "src/scripts/generate.sh"
+    "generate-api": "src/scripts/generate.sh"
   },
   "repository": {
     "url": "https://github.com/inhaltone/api-ts-engine.git"
