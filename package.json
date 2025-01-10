@@ -1,13 +1,13 @@
 {
   "name": "@inhaltone/api-ts-engine",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A utility wrapper script package for openapi generator",
   "main": "index.js",
   "scripts": {
-    "generate-api": "sh src/scripts/generate.sh"
+    "gen-api": "sh ./src/scripts/generate.sh"
   },
   "bin": {
-    "generate-api": "src/scripts/generate.sh"
+    "gen-api": "./src/scripts/generate.sh"
   },
   "repository": {
     "url": "https://github.com/inhaltone/api-ts-engine.git"
