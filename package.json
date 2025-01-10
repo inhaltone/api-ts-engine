@@ -1,0 +1,11 @@
+{
+  "name": "api-ts-engine",
+  "version": "1.0.0",
+  "description": "A utility wrapper script package for openapi generator",
+  "main": "index.js",
+  "scripts": {
+    "gen": "sh src/scripts/generate.sh"
+  },
+  "author": "@inhaltone",
+  "license": "ISC"
+}
