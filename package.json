@@ -1,10 +1,10 @@
 {
   "name": "@inhaltone/api-ts-engine",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A utility wrapper for generating TypeScript APIs using OpenAPI generator CLI",
-  "main": "./src/scripts/generate.sh",
+  "main": "./bin/generate.sh",
   "scripts": {
-    "generate-api-ts": "./src/scripts/generate.sh"
+    "generate-api-ts": "./bin/generate.sh"
   },
   "bin": {
     "generate-api-ts": "./bin/generate-api-ts.js"

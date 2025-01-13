@@ -2,7 +2,7 @@
 const { exec } = require("child_process");
 const path = require("path");
 
-const scriptPath = path.resolve(__dirname, "../src/scripts/generate.sh");
+const scriptPath = path.resolve(__dirname, "generate.sh");
 
 exec(`bash ${scriptPath}`, (err, stdout, stderr) => {
     if (err) {
